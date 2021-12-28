@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;300;400;500;600&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Poppins:wght@100;200;300;400;500;600&family=Raleway:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,600&family=Noto+Serif+KR:wght@300;400;500;600&family=Spinnaker&display=swap");
+
+/* <!-------------------------------- global ----------------------------------> */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font-family: "Montserrat", "Lato", "Noto Sans KR", "Nanum Gothic", "Poppins", sans-serif; */
+  background-color: #fbfbfd;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+/* <!-------------------------------- common ----------------------------------> */
+
+/* <!-------------------------------- first-page ----------------------------------> */
+.first,
+.second,
+.third {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fbfbfd;
+}
+.header-wrapper {
+  text-align: center;
+  font-size: 2em;
+  padding: 2em 1em 2em 1em;
+  color: #181818;
+  background-color: #fbfbfd;
+}
+.sns-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #fbfbfd;
+}
+.sns-wrapper li {
+  display: inline-block;
+  border: 1px solid #342009;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  font-family: "Spinnaker", sans-serif;
+  background-color: #f7f0d4;
+  border-radius: 0.25em;
+  opacity: 0.75;
+}
+.sns-wrapper li:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+.title-main {
+  padding: 2em 1em 0.5em 1em;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 300;
+  /* font-weight: bold; */
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #fbfbfd;
+  text-align: center;
+}
+.title-main span {
+  font-weight: 700;
+}
+.title-top {
+  padding: 0.5em 1em 0.25em 1em;
+  font-size: 1.5em;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #fbfbfd;
+  font-weight: 200;
+  text-align: center;
+}
+.title-bottom {
+  padding: 0em 1em 1em 1em;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #fbfbfd;
+  font-weight: 200;
+  text-align: center;
+}
+.title-top span {
+  font-weight: 500;
+}
+.title-bottom span {
+  font-weight: 500;
+}
+.content-wrapper {
+  display: flex;
+  border: 1px solid #cac9c8;
+  background-color: #fbfbfd;
+  margin-bottom: 2em;
+}
+.content-project,
+.content-ex,
+.content-my {
+  flex: 1;
+  border-right: 1px solid #cac9c8;
+}
+.content-my {
+  border: none;
+}
+.content-wrapper .project,
+.ex,
+.my {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  /* border-bottom: 1px solid rgb(55, 114, 28); */
+  padding: 1.25em;
+  font-family: "Montserrat", sans-serif;
+  color: #a8a4a4;
+}
+
+.project-intro li {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+.content-project li:first-child {
+  font-style: italic;
+  padding: 1em 0;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+.content-ex li {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+.content-ex li:first-child {
+  font-style: italic;
+  padding: 1em 0;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+.content-my li {
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+.content-my li:first-child {
+  font-style: italic;
+  padding: 1em 0;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+ul span {
+  background-color: #ffef93;
+  font-weight: bold;
+}
+/* <!-------------------------------- third-page ----------------------------------> */
+.third {
+  margin-bottom: 1em;
+  background-color: #fbfbfd;
+}
+.pf-subtitle-top,
+.pf-subtitle-bottom {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #fbfbfd;
+}
+.title-main .thirds {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.pf-subtitle-top span {
+  font-weight: 700;
+  background-color: #ffef93;
+}
+.pf-subtitle-bottom span {
+  font-weight: 700;
+  background-color: #ffef93;
+}
+.pf-sub-top span {
+  font-weight: bold;
+}
+.pf-subtitle-bottom {
+  margin-bottom: 2em;
+}
+.pf-sub-top,
+.pf-sub-bottom {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25em;
+  color: #363636;
+  background-color: #fbfbfd;
+}
+.pf-sub-bottom {
+  margin-bottom: 2em;
+}
+
+.pf-main {
+  border: 1px solid #cac9c8;
+  display: flex;
+  box-shadow: 0 1px 20px 0 #ebebeb;
+}
+.pf-main .pf-number {
+  color: white;
+  font-weight: bold;
+  background-color: #181818;
+}
+.pf-main .pf-content {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #181818;
+}
+
+.pf-number {
+  flex: 1;
+  /* border: 1px solid rgb(187, 151, 151); */
+  /* border-right: 1px solid #cac9c8; */
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em;
+  font-style: italic;
+}
+.pf-content {
+  flex: 3;
+  /* border: 1px solid rgb(53, 24, 24); */
+  font-size: 2em;
+  text-align: center;
+  padding: 0.5em 0.5em 0.5em 3em;
+  font-style: italic;
+}
+.pf-box {
+  /* border: 1px solid blue; */
+  box-shadow: 0 1px 20px 0 #ebebeb;
+}
+.pfbox-top {
+  /* border: 1px solid rgb(33, 202, 118); */
+  display: flex;
+}
+.pftop-left {
+  flex: 1;
+
+  /* border-bottom: 1px solid #cac9c8; */
+  /* border: 1px solid rgb(193, 206, 76); */
+}
+.pftop-left img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  padding: 0.25em;
+}
+.pftop-right {
+  flex: 1;
+  /* border: 1px solid rgb(216, 155, 40); */
+}
+.topright-title,
+.topright-rate,
+.topright-intro,
+.topright-btn {
+  text-align: center;
+}
+.topright-btn span {
+  font-size: 1.5em;
+  border: 1px solid #181818;
+  border-radius: 0.25em;
+  color: white;
+  background-color: #181818;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0.25em 1em;
+  margin: 0 0.5em;
+}
+
+.topright-btn {
+  padding: 2em;
+  border-bottom: 1px solid #cac9c8;
+  border-left: 1px solid #cac9c8;
+  border-right: 1px solid #cac9c8;
+}
+.topright-title {
+  font-size: 2em;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #111111;
+  padding: 2em;
+  border-bottom: 1px solid #cac9c8;
+  border-left: 1px solid #cac9c8;
+  border-right: 1px solid #cac9c8;
+}
+.topright-rate {
+  font-size: 1.5em;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 1em;
+  color: black;
+  border-bottom: 1px solid #cac9c8;
+  border-left: 1px solid #cac9c8;
+  border-right: 1px solid #cac9c8;
+}
+.topright-intro {
+  font-size: 1.5em;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 1.5em;
+  color: black;
+  border-bottom: 1px solid #cac9c8;
+  border-left: 1px solid #cac9c8;
+  border-right: 1px solid #cac9c8;
+}
+.pfbox-bottom {
+  /* border: 1px solid rgb(77, 18, 216); */
+  display: flex;
+}
+.pfbottom-left {
+  flex: 1;
+  text-align: center;
+}
+.bottomleft-title {
+  /* border: 1px solid rgb(77, 18, 216); */
+  border-bottom: 1px solid #cac9c8;
+  border-right: 1px solid #cac9c8;
+  border-top: 1px solid #cac9c8;
+  /* box-shadow: 0 1px 20px 0 #ebebeb; */
+  padding: 0.5em;
+  font-size: 2em;
+  color: #181818;
+  font-weight: bold;
+  font-style: italic;
+}
+.bottomleft-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* border: 1px solid #cac9c8; */
+}
+.skill-main,
+.skill-sub {
+  flex: 1;
+  /* border: 1px solid rgb(98, 85, 131); */
+}
+.skill-main-title,
+.skill-sub-title {
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 1.75em;
+  /* border: 1px solid #cac9c8; */
+}
+.skill-sub-content li {
+  border-left: 1px solid #cac9c8;
+  /* border-right: 1px solid #cac9c8; */
+}
+.skill-sub-title {
+  border-left: 1px solid #cac9c8;
+  /* border-right: 1px solid #cac9c8; */
+}
+.pfbottom-left li {
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+.skill-sub-content li,
+.skill-sub-title {
+  border-right: 1px solid #cac9c8;
+}
+.pfbottom-right {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #cac9c8;
+}
+.bottomright-title,
+.bottomright-real,
+.bottomright-more {
+  padding: 0.5em;
+  font-size: 1.5em;
+  color: #181818;
+  font-weight: bold;
+  font-style: italic;
+  /* border-right: 1px solid #cac9c8; */
+}
+.bottomright-title {
+  border-top: 1px solid #cac9c8;
+}
+.bottomright-rate2,
+.bottomright-realinfo2 {
+  border-bottom: 1px solid #cac9c8;
+}
+.bottomright-rate1,
+.bottomright-realinfo1,
+.bottomright-moreinfo1,
+.bottomright-rate2,
+.bottomright-realinfo2,
+.bottomright-moreinfo2 {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  /* border-right: 1px solid #cac9c8; */
+}
+/* <!-------------------------------- responsive ----------------------------------> */
+@media (max-width: 1399px) {
+}
+
+/* 화면 2/3크기 */
+@media (max-width: 1199px) {
+}
+/* 화면 1/2크기 */
+@media (max-width: 991px) {
+  .pf-main {
+    flex-direction: column;
+  }
+  .pfbox-top {
+    flex-direction: column;
+  }
+  .pfbox-bottom {
+    flex-direction: column;
+  }
+}
+/* 테블릿 사이즈 */
+@media (max-width: 767px) {
+  .header-wrapper {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .sns-wrapper li {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.25em;
+  }
+  .title-main {
+    font-size: 1.5em;
+    padding: 0.5em 0 0 0;
+    text-align: center;
+  }
+  .title-top {
+    padding: 1em;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  .title-bottom {
+    display: none;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    border-right: none;
+  }
+  .content-project,
+  .content-ex,
+  .content-my {
+    border: none;
+  }
+
+  .content-wrapper .project,
+  .ex,
+  .my {
+    font-size: 1.5em;
+    border-bottom: 1px solid #cac9c8;
+    border-top: 1px solid #cac9c8;
+    padding: 0.5em;
+  }
+  .project-intro li {
+    font-size: 1em;
+  }
+  .project-intro li:first-child {
+    padding: 0.5em 0;
+    font-size: 1.25em;
+  }
+  .content-ex li {
+    font-size: 1em;
+  }
+  .content-ex li:first-child {
+    padding: 0.5em 0;
+    font-size: 1.25em;
+  }
+
+  .content-my li {
+    font-size: 1em;
+  }
+  .content-my li:first-child {
+    padding: 0.5em 0;
+    font-size: 1.25em;
+  }
+  /*********** third-page ***********/
+
+  .pf-subtitle-top,
+  .pf-subtitle-bottom {
+    font-size: 1.25em;
+    padding: 0 1.25em;
+  }
+
+  .pf-sub-top,
+  .pf-sub-bottom {
+    display: none;
+  }
+
+  .pf-main {
+    border: none;
+    flex-direction: column;
+  }
+  .pf-number {
+    border-right: none;
+    border-bottom: 1px solid #cac9c8;
+    border-top: 1px solid #cac9c8;
+    font-size: 1.5em;
+    padding: 1em 0.5em;
+  }
+  .pf-content {
+    font-size: 1.25em;
+    padding: 1em;
+    border-bottom: 1px solid #cac9c8;
+  }
+  .pf-box {
+    box-shadow: none;
+  }
+  .pfbox-top {
+    flex-direction: column;
+  }
+  .pftop-left img {
+    width: 100vw;
+    height: 100%;
+    /* object-fit: none; */
+    padding: 0;
+  }
+  .topright-btn span {
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+    margin: 0 1em;
+  }
+  .topright-btn {
+    padding: 1em;
+    border-left: none;
+    border-right: none;
+  }
+  .topright-title {
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-bottom: 1px solid #cac9c8;
+    border-top: 1px solid #cac9c8;
+    border-left: none;
+    border-right: none;
+  }
+  .topright-rate {
+    font-size: 1.25em;
+    padding: 0.5em;
+    color: black;
+    border-left: none;
+    border-right: none;
+  }
+  .topright-intro {
+    font-size: 1.25em;
+    padding: 0.5em;
+    color: black;
+    border-left: none;
+    border-right: none;
+  }
+  .pfbox-bottom {
+    flex-direction: column;
+  }
+  .bottomleft-title {
+    border-right: none;
+    border-top: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+  }
+
+  .skill-main-title,
+  .skill-sub-title {
+    padding: 0.5em;
+    font-size: 1.25em;
+  }
+  .pfbottom-left li {
+    font-size: 1.25em;
+    padding: 0.25em;
+  }
+  .skill-sub-content li,
+  .skill-sub-title {
+    border-right: none;
+  }
+  .pfbottom-right {
+    border-right: none;
+  }
+  .bottomright-title,
+  .bottomright-real,
+  .bottomright-more {
+    padding: 0.25em;
+    font-size: 1.25em;
+    border-right: none;
+  }
+
+  .bottomright-rate1,
+  .bottomright-realinfo1,
+  .bottomright-moreinfo1,
+  .bottomright-rate2,
+  .bottomright-realinfo2,
+  .bottomright-moreinfo2 {
+    padding: 0.25em 0.5em;
+    font-size: 1em;
+    border-right: none;
+  }
+  .pf-subtitle-top span {
+    background-color: #fbfbfd;
+  }
+  .pf-subtitle-bottom span {
+    background-color: #fbfbfd;
+  }
+}
+/* 모바일 사이즈 */
+@media (max-width: 575px) {
+  .sns-wrapper li {
+    font-size: 0.75em;
+  }
+  .title-main {
+    font-size: 1.25em;
+  }
+  .title-top {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  .content-wrapper .project,
+  .ex,
+  .my {
+    font-size: 1.25em;
+    padding: 0.5em;
+  }
+}
