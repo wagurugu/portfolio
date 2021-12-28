@@ -30,7 +30,7 @@ li {
 .header-wrapper {
   text-align: center;
   font-size: 2em;
-  padding: 2em 1em 2em 1em;
+  padding: 1em;
   color: #181818;
   background-color: #fbfbfd;
 }
@@ -93,7 +93,7 @@ li {
   display: flex;
   border: 1px solid #cac9c8;
   background-color: #fbfbfd;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 .content-project,
 .content-ex,
@@ -183,6 +183,7 @@ ul span {
   font-weight: bold;
 }
 .pf-subtitle-bottom {
+  /* padding-top: 0.5em; */
   margin-bottom: 2em;
 }
 .pf-sub-top,
@@ -414,7 +415,7 @@ ul span {
 @media (max-width: 767px) {
   .header-wrapper {
     font-size: 1.5em;
-    padding: 1em;
+    /* padding: 0.5em 1em 0.5em 1em; */
   }
   .sns-wrapper li {
     font-size: 1em;
@@ -477,11 +478,15 @@ ul span {
     font-size: 1.25em;
   }
   /*********** third-page ***********/
-
   .pf-subtitle-top,
   .pf-subtitle-bottom {
     font-size: 1.25em;
-    padding: 0 1.25em;
+    padding: 0 3.75em;
+  }
+  .pf-subtitle-bottom {
+    border-bottom: 1px solid #cac9c8;
+    padding-bottom: 1.5em;
+    margin-bottom: 0;
   }
 
   .pf-sub-top,
@@ -564,6 +569,9 @@ ul span {
     padding: 0.5em;
     font-size: 1.25em;
   }
+  .bottomleft-content ul {
+    font-size: 0.75em;
+  }
   .pfbottom-left li {
     font-size: 1.25em;
     padding: 0.25em;
@@ -602,6 +610,11 @@ ul span {
 }
 /* 모바일 사이즈 */
 @media (max-width: 575px) {
+  .header-wrapper {
+    font-size: 1.5em;
+    /* padding: 0.25em 1em 0.25em 1em; */
+  }
+
   .sns-wrapper li {
     font-size: 0.75em;
   }
