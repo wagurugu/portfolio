@@ -66,12 +66,6 @@
 
 ## <img src="설명/기획/pf3-3.png" width="1200" height="600"/>
 
-## - database(sequelize) 적용
-
-## - seeders(더미데이터) 활용 user, product, cate, board 데이터 생성
-
-## - node 서버 API로 Front에서 데이터 받아서 처리(GET)
-
 ---
 
 # 6. 프로젝트 결과
