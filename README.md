@@ -1,67 +1,87 @@
-# My PORTFOLIO
-
-# [https://cutygost.com]
+# [PORTFOLIO](https://cutygost.com)
 
 # 1. 프로젝트 개요
 
-## - 기획 및 개발 총괄 : 100% 스스로 진행
+## - 자체 프로젝트(1인)
 
-- 포기를 모르는 노빠꾸 개발자 [https://github.com/wagurugu]
+## - 소개용 포트폴리오 사이트 제작
 
-## - 내용 :
+## - 아마추어 느낌의 사이트 지양
 
-## - 개발 진행방법 :
-
-## - 기타 :
+## - [아마추어 느낌의 첫 포트폴리오 소개 사이트 확인](https://intropf.web.app/)
 
 ---
 
-# 2. 프로젝트 기획
+# 2. 프로젝트 방향
 
-## - 기획 설명 내용
+## - simple한 포트폴리오 사이트
 
-## - 기획 내용 정의
+## - 관련 기술과 작성자 idea 및 생각을 표현할 수 있도록 제작
 
-## <img src="링크주소" width="600" height="400"/>
+## - 각 포트폴리오의 기획내용+산출물 링크 처리로 확인 가능하도록
 
----
+## - Git 및 기타 개발관련 SNS 링크 연결로 본인을 알림
 
-## - 개발 방향 : 방향 설명
+## - 5개월 교육 과정이 끝나기에 '포트폴리오'를 만들어봄
 
-- html, css, javascript, firebase 제작 / 고객사 직접 upload(x)
-
----
-
-## - 기획안
-
-## <img src="이미지주소" width="600" height="400"/>
+## - 실제로 어떤 프로젝트를 직접 기획하고 진행한 최초의 내용
 
 ---
 
-# 3. 프로젝트 결과
+# 3. 사실적 의견
 
-## - 개발 결과
+## - 첫 프로젝트였기에 이것저것 해보고 싶었던게 많았던 프로젝트
 
----
-
-### 1. 메인페이지1, about페이지1, portfolio페이지1, contact페이지1
-
-### 2. depth1에서 카테고리 분류 5종
-
-### 3. 고객사 제공 portfolio 이미지는 json형식으로 데이터 받아오도록 설계
+## - 먼저 할 수 있는 기능은 직접 연구하며 구현 후 심플하게 고도화 진행
 
 ---
 
-## <img src="이미지링크 width="600" height="300"/>
+# 4. 고도화 방향
+
+## - 통일된 코드
+
+## - 최신 기술 사용
 
 ---
 
-# 4. 프로젝트 의견
+# 5. 프로젝트 기획
 
-## - 사이트에서 고객사의 포트폴리오 이미지가 가장 두드러지도록 설계
+## <img src="설명/기획/portfolio(서버배포기획).jpg" width="1200" height="600"/>
+
+## <img src="설명/기획/All_Plan_Lee.jpg" width="1200" height="600"/>
+
+## <img src="설명/기획/All_Plan_Pf_Lee.jpg" width="1200" height="600"/>
+
+## <img src="설명/기획/myPf-상세기획.jpg" width="1200" height="600"/>
+
+## <img src="설명/기획/pf1.png" width="1200" height="600"/>
+
+## <img src="설명/기획/pf1-2.png" width="1200" height="600"/>
+
+## <img src="설명/기획/pf2.png" width="1200" height="600"/>
+
+## <img src="설명/기획/pf2-2.png" width="1200" height="600"/>
+
+## <img src="설명/기획/pf3.png" width="1200" height="600"/>
+
+## <img src="설명/기획/pf3-3.png" width="1200" height="600"/>
+
+## - database(sequelize) 적용
+
+## - seeders(더미데이터) 활용 user, product, cate, board 데이터 생성
+
+## - node 서버 API로 Front에서 데이터 받아서 처리(GET)
 
 ---
 
-# 5. 프로젝트 개선의견
+# 6. 프로젝트 결과
 
-## - admin페이지를 node로 간략히 구현해서 front와 api로 데이터 주고받도록
+# [PORTFOLIO WEBSITE](https://cutygost.com)
+
+---
+
+## 7. 생각
+
+## - 무조건 React를 하고 Node까지 가능한 프론트앤드 개발자!
+
+## - 늦었지만 제대로 할 수 있는 프론트앤드 개발자가 될 것이다! 화이팅 : )
